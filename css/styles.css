@@ -1,1 +1,12 @@
-font-family: 'Open Sans', sans-serif;
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.site-logo {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #555252;
+}
+
+
