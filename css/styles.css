@@ -125,24 +125,6 @@ img {
   text-transform: uppercase;
 }
 
-/* 
-. {
-  font-size: 100px;
-  font-family: "Pe-icon-7-stroke";
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 0.11;
-  text-align: right;
-  position: absolute;
-  left: 1252.984px;
-  top: 337.5px;
-  width: 22px;
-  height: 38px;
-  z-index: 90;
-}
-
- */
-
 .slides-item {
   position: relative;
 }
