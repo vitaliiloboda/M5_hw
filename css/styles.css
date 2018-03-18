@@ -115,7 +115,14 @@ img {
   font-size: 100px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  /* line-height: 11px; */
+}
+
+.slider-ctrl-prev::before {
+  font-family: "Pe-icon-7-stroke";
+  content: '\e686';
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 /* 
