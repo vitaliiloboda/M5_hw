@@ -1,6 +1,3 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 html {
   box-sizing: border-box;
 }
@@ -116,6 +113,7 @@ header {
   top: 224px;
   z-index: 1;
   padding: 0;
+  cursor: pointer;
 }
 
 .slides {
@@ -276,7 +274,6 @@ header {
   opacity: 0;
   top: 10px;
   left: 10px;
-  z-index: 1;
 }
 
 .overlay-button {
@@ -288,7 +285,6 @@ header {
   border: none;
   margin: 0;
   padding: 0;
-  z-index: 100;
 }
 
 .overlay-button li {
@@ -376,12 +372,10 @@ header {
   background-color: #1abc9c;
   border: none;
   position: absolute;
-  z-index: 2;
 }
 
 .overlay-button li:last-child:hover {
   background-color: #323232;
-  z-index: 2;
 }
 
 .overlay-button li:nth-child(2) {
@@ -406,10 +400,8 @@ header {
 }
 
 /* opacity for overlay */
-
 .colection-list-item:hover .overlay {
   opacity: 0.549;
-  z-index: 1;
   position: absolute;
 }
 
@@ -451,7 +443,6 @@ footer {
 }
 
 /* visually-hidden helper */
-
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
