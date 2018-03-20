@@ -380,13 +380,13 @@ header {
   position: absolute;
 }
 
-/* .overlay-button li:last-child:hover {
+.overlay-button li:last-child:hover {
+  background-color: #323232 !important;
+}
+
+/* #cart .overlay-button-item-button:hover {
   background-color: #323232;
 } */
-
-#add-to-cart {
-  background-color: #323232;
-}
 
 .overlay-button li:nth-child(2) {
   top: 78px;
